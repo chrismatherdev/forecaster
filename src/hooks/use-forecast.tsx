@@ -81,10 +81,10 @@ function useProvideForecast() {
     dailyForecast,
     selectedForecast: dailyForecast.find((forecast) => forecast.dayIndex === selectedDay),
     selectedDay,
-    setSelectedDay,
-    setLocation,
     location,
     loading,
+    setSelectedDay,
+    setLocation,
   };
 }
 

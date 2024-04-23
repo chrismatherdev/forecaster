@@ -20,7 +20,6 @@ function App() {
   return (
     <Grid templateColumns={{ lg: '1fr 3fr' }} backgroundColor={colorMode === 'dark' ? 'gray.900' : 'whiteAlpha.50'}>
       <Sidebar />
-
       <VStack alignItems="initial" minH="100vh" p={4} spacing={{ sm: 6, md: 8, lg: 10 }}>
         {loading ? (
           <Loader />
